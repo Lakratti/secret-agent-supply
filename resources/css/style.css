@@ -1,3 +1,168 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
+  color: white;
+  font-family: Helvetica;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+}
+
+.container {
+  display: flex;
+  align-items:  center;
+  font-size: 1.125rem;
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 12px 0 12px 0.5rem;
+
+
+}
+
+#logo {
+  height: 27px;
+  width: auto;
+  padding-right: 15px;
+}
+
+/* Arrival Section */
+
+#arrival {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  text-transform: uppercase;
+
+}
+
+
+.moto {
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+  width: 20rem;
+  padding: 2rem 3rem;
+  position: relative;
+  top: 9rem;
+}
+
+h4 {
+  margin: 1.33rem 0;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0.25rem 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  background-color: firebrick;
+}
+
+div.navbar {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0px auto;
+  /* padding: 12px 0 12px 0.5rem; */
+}
+
+.container-navbar span {
+  padding: 1.05rem 0;
+}
+
+.items {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+
+
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  width: 30%;
+
+}
+
+
+.image-box {
+  display: flex;
+  align-items: center;
+  height: 9rem;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+img.product {
+  max-width: 8rem;
+
+}
+
+.textbox {
+  border:  3px solid black;
+  background-color: black;
+  width: 100%;
+}
+
+.textbox p {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.additional {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.add-item {
+  display: block;
+  width: 30.35%;
+}
+
+.add-item p {
+  color: black;
+}
+
+.textbox span {
+  display: block;
+  padding: 1rem 2rem;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  display: block;
+  margin-top: 4rem;
+
+}
+
+footer .container {
+  padding: 5rem 0;
 }
