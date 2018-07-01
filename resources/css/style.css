@@ -1,13 +1,14 @@
 html {
   font-size: 18px;
   color: white;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
 }
 
 body {
   width: 100%;
 }
 
+/* Header Section with Logo */
 header {
   background-color: black;
   width: 100%;
@@ -18,22 +19,26 @@ header {
 .container {
   display: flex;
   align-items:  center;
-  font-size: 1.125rem;
+  font-size: 1rem;
   max-width: 960px;
   margin: 0px auto;
-  padding: 12px 0 12px 0.5rem;
+
 
 
 }
 
 #logo {
-  height: 27px;
+  height: 1.5rem;
   width: auto;
-  padding-right: 15px;
+  padding: 0 0.5rem;
 }
 
-/* Arrival Section */
+#title {
+  padding: 0.66rem 0.5rem;
+}
 
+
+/* Arrival Section */
 #arrival {
   background-image: url("../images/moto.jpeg");
   background-repeat: no-repeat;
@@ -56,12 +61,13 @@ header {
 }
 
 h4 {
-  margin: 1.33rem 0;
+
+  font-size: 1rem;
   font-weight: bold;
 }
 
 h1 {
-  margin: 0.25rem 0;
+  margin-top: 0.25rem;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -70,23 +76,21 @@ nav {
   background-color: firebrick;
 }
 
-div.navbar {
-  display: flex;
-  justify-content: space-between;
-
-}
-
 .container-navbar {
   display: flex;
   justify-content: space-between;
   max-width: 960px;
   margin: 0px auto;
-  /* padding: 12px 0 12px 0.5rem; */
+
 }
 
 .container-navbar span {
-  padding: 1.05rem 0;
+  padding: 0.75rem 0;
 }
+
+
+
+/*Item Section*/
 
 .items {
   display: flex;
@@ -103,7 +107,7 @@ div.navbar {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 3px solid black;
+  border: 4px solid black;
   width: 30%;
 
 }
@@ -123,14 +127,14 @@ img.product {
 }
 
 .textbox {
-  border:  3px solid black;
+  border:  4px solid black;
   background-color: black;
   width: 100%;
 }
 
 .textbox p {
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 .additional {
@@ -143,11 +147,12 @@ img.product {
 
 .add-item {
   display: block;
-  width: 30.35%;
+  width: 35%;
 }
 
 .add-item p {
   color: black;
+  margin-top: 0.1rem;
 }
 
 .textbox span {
@@ -155,14 +160,21 @@ img.product {
   padding: 1rem 2rem;
 }
 
+
+/* Footer Section */
 footer {
   background-color: black;
   width: 100%;
+  height: 5rem;
   display: block;
   margin-top: 4rem;
-
 }
 
 footer .container {
-  padding: 5rem 0;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#copyright {
+  margin: auto 0;
 }
