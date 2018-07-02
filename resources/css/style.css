@@ -130,7 +130,7 @@ img.product {
 }
 
 .textbox {
-  border:  4px solid black;
+  /* border: 4px solid black; */
   background-color: black;
   width: 100%;
 }
@@ -272,7 +272,7 @@ footer .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 4px solid black;
+    /* border: 4px solid black; */
     width: 90%;
   }
 
@@ -300,7 +300,23 @@ footer .container {
 }
 .add-item {
   display: block;
-  width: 90%;
+  width: 90.5%;
+  margin-top: 0.5rem;
+
+}
+
+.add-item p {
+  color: black;
+
+}
+
+
+
+.textbox span {
+  display: block;
+  padding: 1rem 2rem;
+
+
 }
 
 #copyright {
